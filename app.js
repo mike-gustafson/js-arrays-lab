@@ -151,7 +151,7 @@ Complete Exercise 11 in the space below:
 */
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
-let odds = []
+const odds = []
 
 for (let i=0; i<nums.length; i++) {
     if (nums[i]%2 != 0) {
@@ -180,9 +180,9 @@ Exercise 12: FizzBuzz with arrays
 Complete Exercise 12 in the space below:
 */
 
-let fizz = []
-let buzz = []
-let fizzbuzz = []
+const fizz = []
+const buzz = []
+const fizzbuzz = []
 
 for (let i=0; i<nums.length; i++) {
     if (!(nums[i]%3) && !(nums[i]%5)) {
