@@ -145,9 +145,11 @@ const fizzbuzz = []
 for (let i=0; i<nums.length; i++) {
     if (!(nums[i]%3) && !(nums[i]%5)) {
         fizzbuzz.push(nums[i])
-    } else if (!(nums[i]%5)) {
+    }
+    if (!(nums[i]%5)) {
         buzz.push(nums[i])
-    } else if (!(nums[i]%3)) {
+    }
+    if (!(nums[i]%3)) {
         fizz.push(nums[i])
     }
 }
