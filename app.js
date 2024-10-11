@@ -175,7 +175,7 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
-let numList = numArrays[numArrays.length - 1]
+const numList = numArrays[numArrays.length-1]
 
 console.log('Exercise 13 result:', numList);
 
@@ -210,4 +210,4 @@ numArrays.forEach(element => {
         total = total+element[i]
     }
 });
-console.log('Exercise 15 result:\n', total);
+console.log('Exercise 15 result:', total);
